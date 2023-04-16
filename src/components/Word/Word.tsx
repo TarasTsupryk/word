@@ -14,7 +14,7 @@ interface Props {
 const Word: React.FC<Props> = ({ word }) => {
   const { firstLetter, lastLetter, wordBody } = cutWord(word);
   return (
-    <StyledWord>
+    <StyledWord data-testId={"word"}>
       <FirstLetter>{firstLetter.toLocaleUpperCase()}</FirstLetter>
       <WordWithoutLastLetter>{wordBody}</WordWithoutLastLetter>
       <LastLetter>{lastLetter}</LastLetter>
