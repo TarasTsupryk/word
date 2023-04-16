@@ -8,4 +8,5 @@ describe("Word", () => {
     expect(screen.getByTestId('word')).toBeInTheDocument();
     expect(screen.getByTestId('word')).toHaveTextContent('Яблуко');
   });
+
 });
