@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { theme } from "styles";
 
 export interface StylesProps {
+  width?: string;
   minHeight?: string;
   color?: string;
 }
@@ -16,4 +17,5 @@ export const PrimaryButton = styled.button<StylesProps>`
   justify-content: center;
   background-color: ${({ color }) => color};
   color: white;
+  width: ${({ width }) => width};
 `;
