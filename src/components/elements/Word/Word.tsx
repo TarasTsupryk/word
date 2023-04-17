@@ -1,5 +1,5 @@
 import React from "react";
-import cutWord from "./cutWord";
+import { cutWord } from "utils";
 import {
   StyledWord,
   FirstLetter,
