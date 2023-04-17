@@ -5,4 +5,7 @@ export const colors = {
   lightRed: "#F17F78",
   pink: "#ef5da8",
   lightPink: "",
+  lightGray: "#D9D9D9",
+  while: "#FFF",
+  textPrimary: "#585858",
 };
