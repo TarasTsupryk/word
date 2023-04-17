@@ -30,7 +30,7 @@ import i from 'assets/dataset/і.json';
 import yi from 'assets/dataset/ї.json'; 
 import g from 'assets/dataset/ґ.json'; 
 
-const allWords = {
+const allWords: { [key: string]: string[] } = {
     "А": a.array,
     "Б": b.array,
     "В": v.array,
